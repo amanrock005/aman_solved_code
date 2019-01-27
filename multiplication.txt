@@ -1,0 +1,18 @@
+#include<iostream.h>
+#include<conio.h>
+
+  void main()
+  {
+     clrscr();
+     
+     int a;
+     int b;
+     cout<<"\nenter two number\n";
+     cin>>a>>b;
+     
+     int ans;
+     ans=a*b;
+     cout<<"\nanswer is "<<ans;
+     
+     getch();
+  }
