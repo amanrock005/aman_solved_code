@@ -19,7 +19,8 @@
            else
            cout<<"  ";
 
-        }  
+        } 
+        cout<<"\n";
       }
  
       getch();
