@@ -1,0 +1,23 @@
+/* 1
+   12
+   123
+   1234
+   12345 */
+
+#include<iostream.h>
+#include<conio.h>
+
+   void main()
+   {
+      clrscr();
+ 
+      for(int i=0;i<5;i++)
+      {
+          for(int j=0;j<=i;j++)
+          cout<<j+1;
+          cout<<"\n";
+          
+      }
+ 
+      getch();
+   }
