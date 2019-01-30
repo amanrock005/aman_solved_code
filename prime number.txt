@@ -1,0 +1,30 @@
+#include<iostream.h>
+#include<conio.h>
+
+  void main()
+  {
+    clrscr();
+
+    int num;
+    int i=2;
+    cout<<"\nenter the number\n";
+    cin>>num;
+
+    int flag=0;
+
+    while(i<num)
+    { if(num%i==0)
+      flag=1;
+      i++;
+
+    }
+
+    if(flag==0)
+    cout<<"\nprime number\n";
+
+    else
+    cout<<"\nnot prime number\n";
+
+    getch();
+
+  }
